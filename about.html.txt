@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Garrett J Engelder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello, I'm Garrett J Engelder, a Computer and Information Technology student at Purdue University. I am passionate about technology and enjoy exploring various aspects of software development.</p>
+
+        <p>Currently, I am focusing on areas such as systems programming, database programming, and cybersecurity fundamentals. I am enthusiastic about learning and applying new technologies to real-world projects.</p>
+
+        <!-- Add more details about yourself -->
+    </section>
+</body>
+
+</html>
