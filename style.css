@@ -16,8 +16,14 @@ header {
     padding: 1rem;
 }
 
+nav {
+	text-align: center;
+}
+
 nav ul {
     list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 nav a {
