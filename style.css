@@ -30,7 +30,7 @@ section {
     padding: 2rem;
 }
 
-footer {
+footer p {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -62,8 +62,4 @@ footer {
 
 .project a:hover {
     text-decoration: underline;
-}
-
-footer p {
-    color: #fff;
 }
