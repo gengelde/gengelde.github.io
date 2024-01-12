@@ -25,29 +25,8 @@
     </section>
 
     <footer>
-        <p><a href=&copy; 2024 Garrett J Engelder</p>
+        <p>&copy; 2024 Garrett J Engelder</p>
     </footer>
-
-    <script>
-        // JavaScript to dynamically load content based on the URL hash
-        function loadContent() {
-            var hash = window.location.hash.substring(1);
-            var contentSection = document.getElementById('content');
-            var filename = hash + '.html';
-
-            // Use fetch API to load the content
-            fetch(filename)
-                .then(response => response.text())
-                .then(data => {
-                    contentSection.innerHTML = data;
-                })
-                .catch(error => console.error('Error fetching content:', error));
-        }
-
-        // Load content when the page loads and when the hash changes
-        window.addEventListener('load', loadContent);
-        window.addEventListener('hashchange', loadContent);
-    </script>
 </body>
 
 </html>
