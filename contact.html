@@ -12,7 +12,7 @@
     <header>
         <nav>
             <ul>
-				<li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -20,14 +20,25 @@
             </ul>
         </nav>
     </header>
-    <section id="contact">
-        <h1>Contact</h1>
-         <p>Hello! I'm Garrett J Engelder, a Computer and Information Technology student at Purdue University. Passionate about technology and its applications, I enjoy exploring various aspects of software development, system administration, and cybersecurity.</p>
-        
-        <p>Throughout my academic journey, I've gained valuable experience in areas such as systems programming, database technology, and object-oriented application development. I'm constantly seeking opportunities to enhance my skills and contribute to innovative projects.</p>
 
-        <p>Feel free to explore my portfolio and resume to learn more about my academic and professional background. If you have any questions or would like to connect, don't hesitate to reach out through the provided contact options.</p>
+    <section id="content">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out. I'd love to hear from you!</p>
+
+        <form action="submit_contact.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </section>
+
     <footer>
         <p>&copy; 2024 Garrett J Engelder</p>
     </footer>
