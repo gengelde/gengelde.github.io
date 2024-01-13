@@ -44,30 +44,6 @@
     <footer>
         <p>&copy; 2024 Garrett J Engelder</p>
     </footer>
-
-    <script>
-        function saveToLocalStorage() {
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-
-            // Create an object to represent the form data
-            var formData = {
-                name: name,
-                email: email,
-                message: message
-            };
-
-            // Convert the object to a JSON string
-            var formDataString = JSON.stringify(formData);
-
-            // Save the JSON string to Local Storage
-            localStorage.setItem('contactFormData', formDataString);
-
-            // Redirect to a thank you page
-            window.location.href = 'contact.html';
-        }
-    </script>
 </body>
 
 </html>
