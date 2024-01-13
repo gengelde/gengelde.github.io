@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     fclose($file);
 
     // For demonstration purposes, you can redirect to a thank you page
-    header("Location: thank_you.html");
+    header("Location: contact.html");
     exit();
 } else {
     // Redirect to the contact page if accessed directly without a POST request
