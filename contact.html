@@ -25,7 +25,7 @@
         <h1>Contact Me</h1>
         <p>Feel free to reach out. I'd love to hear from you!</p>
 
-        <form action="submit_contact.php" method="post">
+        <form id="contactForm">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -35,13 +35,37 @@
             <label for="message">Your Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
 
-            <button type="submit">Submit</button>
+            <button type="button" onclick="saveToLocalStorage()">Submit</button>
         </form>
     </section>
 
     <footer>
         <p>&copy; 2024 Garrett J Engelder</p>
     </footer>
+
+    <script>
+        function saveToLocalStorage() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Create an object to represent the form data
+            var formData = {
+                name: name,
+                email: email,
+                message: message
+            };
+
+            // Convert the object to a JSON string
+            var formDataString = JSON.stringify(formData);
+
+            // Save the JSON string to Local Storage
+            localStorage.setItem('contactFormData', formDataString);
+
+            // Redirect to a thank you page
+            window.location.href = 'contact.html';
+        }
+    </script>
 </body>
 
 </html>
