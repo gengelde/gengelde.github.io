@@ -69,6 +69,7 @@ label {
 
 input,
 textarea {
+	resize: none;
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
