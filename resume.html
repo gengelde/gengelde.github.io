@@ -28,6 +28,19 @@
     <footer>
         <p>&copy; 2024 Garrett J Engelder</p>
     </footer>
+	
+	    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.querySelector("header").style.backgroundColor = "#333";
+            } else {
+                document.querySelector("header").style.backgroundColor = "transparent";
+            }
+        }
+    </script>
+	
 </body>
 
 </html>
