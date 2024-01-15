@@ -67,6 +67,12 @@ label {
     margin-bottom: 0.5rem;
 }
 
+label2 {
+    display: block;
+    margin-bottom: 0.5rem;
+	text-align: right;
+}
+
 input,
 textarea {
 	resize: none;
@@ -88,18 +94,6 @@ button:hover {
     background-color: #555;
 }
 
-.video-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-    margin-top: 1rem;
-}
-
-.video-container iframe {
-    width: 100%;
-    height: 100%;
-}
-
 footer p {
     background-color: #333;
     color: #fff;
@@ -109,4 +103,60 @@ footer p {
 	margin-top: auto;
     width: 100%;
 	box-sizing: border-box;
+}
+
+#portfolio {
+    display: flex;
+    justify-content: center;
+	background-image: url("leaves-background.jpg");
+	background-size: cover;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 4000px;
+    margin: 0 auto;
+	margin-top: 7rem;
+	margin-left: 12rem;
+	margin-right: 12rem;
+}
+
+.project {
+    width: 48%; /* Adjust the width as needed */
+    box-sizing: border-box;
+    margin-bottom: 10rem; /* Adjust the margin as needed */
+	border: 2px solid #000;
+	 background-color: #FFFFFF;
+}
+
+.project video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Allow the height to adjust proportionally */
+	border: 2px solid #000;
+	box-sizing: border-box;
+}
+
+.project .sinker-video {
+    margin-top: 3rem; /* Add margin or adjust as needed */
+}
+
+.project .hexmatch-video {
+    margin-top: 1.5rem; /* Add a different margin as needed */
+}
+
+.project h2 {
+	margin-top: 1.5rem;
+	text-align: center;
+	overflow-wrap: break-word;
+}
+
+.project-description {
+    text-align: left;
+    margin-top: 2rem;
+	margin-left: 4rem;
+	margin-right: 4rem;
 }
