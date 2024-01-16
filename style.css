@@ -108,7 +108,7 @@ footer p {
 #portfolio {
     display: flex;
     justify-content: center;
-	background-image: url("leaves-background.jpg");
+	background-image: url("background.jpg");
 	background-size: cover;
 }
 
@@ -128,7 +128,7 @@ footer p {
     box-sizing: border-box;
     margin-bottom: 10rem; /* Adjust the margin as needed */
 	border: 2px solid #000;
-	 background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 
 .project video {
@@ -160,3 +160,93 @@ footer p {
 	margin-left: 4rem;
 	margin-right: 4rem;
 }
+
+#content {
+    display: flex;
+    justify-content: center;
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+
+.form {
+	margin-top: 6rem;
+}
+
+.index-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 4000px;
+    margin-top: 2rem;
+	margin-bottom: 4rem;
+	margin-left: 12rem;
+	margin-right: 12rem;
+}
+
+.index {
+    width: 48%; /* Adjust the width as needed */
+    box-sizing: border-box;
+}
+
+.index2 {
+    width: 48%;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 50%; /* Creates a circular shape */
+	overflow: hidden;
+}
+
+.index-description {
+    text-align: left;
+    margin-top: 2rem;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+.index h1 {
+	font-size: 50px;
+	margin-top: 4rem;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+
+.index h2 {
+	margin-top: 1rem;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+
+.button-link {
+	margin-top: 2rem;
+    display: inline-block;
+    background-color: #51D1F7;
+    color: #FCFCFC;
+	border: 2px solid #A0A0A0;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #333;
+}
+
+.socials-container {
+	margin-top: 2.5rem;
+    display: flex;
+    justify-content: left; /* Adjust as needed */
+}
+
+.socials-link {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    margin-right: 25px; /* Adjust as needed for spacing */
+    max-width: 80px; /* Set your desired maximum width */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
