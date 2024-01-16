@@ -1,11 +1,9 @@
-/* Reset some default styles for better consistency across browsers */
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 	box-sizing: border-box;
 }
 
-/* Basic styling for better readability */
 body {
     margin: 0;
     padding: 0;
@@ -124,9 +122,9 @@ footer p {
 }
 
 .project {
-    width: 48%; /* Adjust the width as needed */
+    width: 48%;
     box-sizing: border-box;
-    margin-bottom: 10rem; /* Adjust the margin as needed */
+    margin-bottom: 10rem;
 	border: 2px solid #000;
 	background-color: #FFFFFF;
 }
@@ -134,18 +132,18 @@ footer p {
 .project video {
     display: block;
     margin: 0 auto;
-    max-width: 100%; /* Set maximum width to 100% */
-    height: auto; /* Allow the height to adjust proportionally */
+    max-width: 100%;
+    height: auto;
 	border: 2px solid #000;
 	box-sizing: border-box;
 }
 
 .project .sinker-video {
-    margin-top: 3rem; /* Add margin or adjust as needed */
+    margin-top: 3rem;
 }
 
 .project .hexmatch-video {
-    margin-top: 1.5rem; /* Add a different margin as needed */
+    margin-top: 1.5rem;
 }
 
 .project h2 {
@@ -184,7 +182,7 @@ footer p {
 }
 
 .index {
-    width: 48%; /* Adjust the width as needed */
+    width: 48%;
     box-sizing: border-box;
 }
 
@@ -192,7 +190,7 @@ footer p {
     width: 48%;
     box-sizing: border-box;
     border: 2px solid #000;
-    border-radius: 50%; /* Creates a circular shape */
+    border-radius: 50%;
 	overflow: hidden;
 }
 
@@ -235,7 +233,7 @@ footer p {
 .socials-container {
 	margin-top: 2.5rem;
     display: flex;
-    justify-content: left; /* Adjust as needed */
+    justify-content: left;
 }
 
 .socials-link {
@@ -243,8 +241,8 @@ footer p {
     text-decoration: none;
     border-radius: 50px;
     transition: background-color 0.3s ease;
-    margin-right: 25px; /* Adjust as needed for spacing */
-    max-width: 80px; /* Set your desired maximum width */
+    margin-right: 25px;
+    max-width: 80px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
