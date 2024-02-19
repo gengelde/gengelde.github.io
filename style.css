@@ -248,3 +248,14 @@ footer p {
     white-space: nowrap;
 }
 
+#about {
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+
+#resume {
+    display: flex;
+    justify-content: center;
+	background-image: url("background.jpg");
+	background-size: cover;
+}
